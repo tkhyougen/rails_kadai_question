@@ -1,0 +1,8 @@
+<%= form_with(model: Kadairail.new, local: true) do |form| %>
+  <div class="kadai_content">
+    <%= form.label :content %>
+    <%= form.text_field :content %>
+  </div>
+
+  <%= form.submit %>
+<% end %>

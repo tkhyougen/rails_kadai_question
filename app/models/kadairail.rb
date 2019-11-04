@@ -1,0 +1,2 @@
+class Kadairail < ApplicationRecord
+end
